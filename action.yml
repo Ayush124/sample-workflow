@@ -11,7 +11,7 @@ jobs:
  - name:  Simple Javascript Action
  uses: actions/-world-javascript-action@v1 
  with:
- who-to-great: devopshint
+ who-to-great: Ayush124
  
  -name: Get the output time
  run: echo "${{ steps.hello.outputs.time }}"
